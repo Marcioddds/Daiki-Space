@@ -9,6 +9,11 @@ body {
     list-style: none;
     padding-right: 50px;
   }
+  @media (max-width: 768px){
+  .slide-one-item .site-blocks-cover {
+    background-position: 30% 10% ;
+
+  }}
   ::-moz-selection {
     background: #000;
     color: #fff; }
