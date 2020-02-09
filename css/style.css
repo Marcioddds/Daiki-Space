@@ -7,7 +7,7 @@ body {
   
   .site-section1 ul {
     list-style: none;
-
+    padding-right: 50px;
   }
   ::-moz-selection {
     background: #000;
