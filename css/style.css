@@ -41,6 +41,7 @@ body {
   }
   #listacursos a p{
     width: 320px;
+    color: black;
   }
   #listacursos a p:hover{
     color: grey;
@@ -48,8 +49,22 @@ body {
   @media (max-width: 768px){
     #cabecalho {
     display: flex;
+    margin-left: 400px;
   
     }}
+    @media (max-width: 568px){
+      #cabecalho {
+      display: flex;
+      margin-left: 250px;
+    
+      }}
+  
+
+    @media (max-width: 1300px){
+      #menubt1 {
+      margin-left: 750px;
+    
+      }}
   @media (max-width: 768px){
     #menubt1 {
     display: none;
