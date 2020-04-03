@@ -13,7 +13,30 @@ body {
     margin-left: 60px;
    
   }
-
+ 
+  #cabecalho{
+    position: absolute;
+    display:none;
+    margin-left: 400px;
+  }
+  #aaa{
+    display: flex;
+    flex-direction: row;
+  }
+  #menubt1{
+    position: absolute;
+    color: rgb(201, 201, 201);
+  margin-left: 950px;
+ margin-top: 40px;
+ padding: 20px;
+ 
+  
+  }
+  @media (max-width: 768px){
+    #menubt1 {
+    display: none;
+  
+    }}
   .wwimage:hover{
     
     border-style: solid ;

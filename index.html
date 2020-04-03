@@ -26,6 +26,8 @@
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon?v=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
@@ -49,11 +51,13 @@
         <div class="site-navbar bg-light">
           <div class="py-1">
             <div class="row align-items-center">
-              <div class="col-2">
+              <div id="aaa"class="col-2">
                 <h2 class="mb-0 site-logo"><a href="index.html"><img src="images/daiki/logos/logo-daiki.png" alt=""
-                      title="" /></a></h2>
+                  title="" /></a></h2>
+
+                  <a href="#"><span onclick="openMenu()" id="menubt1" class="icon-menu h3"></span></a>
               </div>
-              <div class="col-10">
+              <div class="col-10" id="cabecalho">
                 <nav class="site-navigation text-right" role="navigation">
                   <div class="container">
 
@@ -340,6 +344,16 @@
       }
     });
   </script>
+  <script>
+    function openMenu() {
+     var click = document.getElementById("cabecalho") ;
+      if(click.style.display === "none"){
+          click.style.display = "flex" ;
+      }else{ 
+          click.style.display = "none" ;
+      }
+    }
+ </script>
 
   <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
     data-dojo-config="usePlainJson: true, isDebug: false"></script>
