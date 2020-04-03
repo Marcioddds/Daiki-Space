@@ -33,6 +33,11 @@ body {
   
   }
   @media (max-width: 768px){
+    #cabecalho {
+    display: flex;
+  
+    }}
+  @media (max-width: 768px){
     #menubt1 {
     display: none;
   
