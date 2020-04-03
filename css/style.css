@@ -9,6 +9,20 @@ body {
     list-style: none;
     padding-right: 50px;
   }
+  #ww{
+    margin-left: 60px;
+    margin-bottom: 80px;
+  }
+
+  .wwimage:hover{
+    
+    border-style: solid ;
+    border-color: rgb(250, 205, 167);
+
+    transition: .4s ease-in;
+    
+    border-width: 6px;
+  }
  
   @media (max-width: 768px){
   .slide-one-item .site-blocks-cover {
