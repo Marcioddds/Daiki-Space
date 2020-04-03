@@ -23,6 +23,11 @@ body {
     
     border-width: 6px;
   }
+  @media (max-width: 768px){
+    .wwimage {
+    width: 300px;
+  
+    }}
  
   @media (max-width: 768px){
   .slide-one-item .site-blocks-cover {
