@@ -30,7 +30,20 @@ body {
  margin-top: 40px;
  padding: 20px;
  
-  
+  }
+  #listacursos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #listacursos a {
+    margin: 30px;
+  }
+  #listacursos a p{
+    width: 320px;
+  }
+  #listacursos a p:hover{
+    color: grey;
   }
   @media (max-width: 768px){
     #cabecalho {
