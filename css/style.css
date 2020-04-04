@@ -16,10 +16,13 @@ body {
   @media (max-width: 768px){
     #flex{
       display: block;
-      justify-content: center;
-      
-      
     }}
+    @media (max-width: 768px){
+      #horario{
+        align-items: center;
+        text-align: center;
+        margin-left: 70px;
+      }}
     @media (max-width: 768px){
       #fotojoao{
        background-position: left;
