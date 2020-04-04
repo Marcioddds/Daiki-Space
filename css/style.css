@@ -21,10 +21,12 @@ body {
   }
   #frases{
     margin-top: 50px;
+    width: 500px;
   }
   .frase h2{
-    font-size: 15px;
+    font-size: 13px;
     color:black;
+    width: 500px;
   }
  
   #cabecalho{
