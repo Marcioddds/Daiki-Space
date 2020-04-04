@@ -15,13 +15,16 @@ body {
   }
   @media (max-width: 768px){
     #flex{
+    width: 100%;
+      
       display: block;
+
     }}
     @media (max-width: 768px){
       #horario{
         align-items: center;
         text-align: center;
-        margin-left: 70px;
+        margin-left: 90px;
       }}
     @media (max-width: 768px){
       #fotojoao{
