@@ -18,12 +18,14 @@ body {
       display: block;
 
     }}
+    #flex img{width: 500px;}
   @media (max-width: 768px){
     #flex img{
-    align-self: center;
+    
    width: 300px;
 
     }}
+    
     @media (max-width: 768px){
       #horario{
         align-items: center;
