@@ -14,10 +14,14 @@ body {
    
   }
   @media (max-width: 768px){
-    #flex{
-    width: 100%;
-      
+    #flex {    
       display: block;
+
+    }}
+  @media (max-width: 768px){
+    #flex img{
+    align-self: center;
+   width: 300px;
 
     }}
     @media (max-width: 768px){
