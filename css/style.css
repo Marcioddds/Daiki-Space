@@ -104,6 +104,13 @@ body {
     margin-top: 50px;
     width: 500px;
   }
+  @media (max-width: 750px){
+    #frases h2 {
+    width: 340px;
+  
+  
+    }}
+    
   .frase h2{
     font-size: 13px;
     color:black;
