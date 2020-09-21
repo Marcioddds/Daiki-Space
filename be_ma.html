@@ -134,13 +134,13 @@
         <div class="site-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+                    <div id="descrição" class="col-md-6 mx-auto text-center mb-5 section-heading">
                         <h2 class="mb-5">Descrição</h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-md-4 col-lg-12">
-                        <div class="text-center item">
+                        <div id="descrever" class="text-center item">
                             <p>É realizada num colchão sobre o chão, de modo a que o corpo fique relaxado e a mente tranquila. Inicialmente é feita uma massagem profunda com óleos vegetais, plantas, óleos essenciais. Durante a massagem são pressionados os pontos Marma (pontos de concentração de energia), os Nadis e Chakras (vórtices que se localizam no corpo, onde recebemos, processamos e transmitimos energia). </p>
                             <p>Alongamentos, manobras de tração, torções, flexões serão realizadas durante a massagem, de acordo com os sintomas apresentados pelo paciente. A Massagem Ayurvédica é baseada nos conhecimentos ancestrais da tradição védica, da Índia.  </p>
                             <p>Benefícios da Massagem Ayurvédica: 
@@ -155,8 +155,11 @@
                                 - Equilibra o organismo em geral, permitindo uma melhor conexão e meditação interior! <br>
                                 
                             </p>
-                            <p><b>Disponibilidade:</b> Terça-Feira</p>
+
                             <p><b>Terapeuta:</b> <a href="ter_anacat.html">Ana Catarina</a></p>
+                            <p><b>Disponibilidade:</b> Terça-feira.</p>
+                            <p><b>Duração: </b> 1H30 </p>
+                            <p><b>Valor: </b> 60€ </p>
                         </div>
                     </div>
                 </div>
@@ -164,9 +167,9 @@
         </div>
 
 
-        <div class="container">
+        <div  class="container">
             <div class="row">
-                <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+                <div id=" marcações" class="col-md-6 mx-auto text-center mb-5 section-heading">
                     <h2 class="mb-5">Marcações</h2>
                 </div>
             </div>
@@ -177,9 +180,18 @@
             <div class="row">
                 <div class="col-md-12 col-lg-12">
 
+        
+        <style>
+            #descrição{margin-top:-20px;}
+            #descrever{margin-top:-15px;}
+            #marcações{margin-top: -20px;}
+            #msg{margin-bottom: 128px;}
+            #caixa {margin-top: -70px;}
+        </style>
+
 
                     <!--IMPORTANTE VER AQUI A AÇÃO!-->
-                    <form action="https://formspree.io/mwknpjnp" method="POST" class="p-5 bg-white">
+                    <form action="https://formspree.io/mwknpjnp" method="POST" id="caixa" class="p-5 bg-white">
 
                         <div class="row form-group">
                             <div class="col-md-12 mb-3 mb-md-0">
@@ -191,7 +203,7 @@
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="font-weight-bold" for="email">E-mail:</label>
-                                <input type="email" id="mail" class="form-control" placeholder="Endereço de E-Mail"
+                                <input type="email" id="mail" class="form-control" placeholder="Endereço de E-mail"
                                     name="mail" required>
                             </div>
                         </div>
@@ -204,7 +216,7 @@
                             </div>
                         </div>
 
-                        <div class="row form-group">
+                        <div id="msg" class="row form-group">
                             <div class="col-md-12 text-center">
                                 <input type="submit" value="Enviar Mensagem"
                                     class="btn btn-primary pill text-white px-5 py-2">
@@ -227,20 +239,28 @@
         <footer class="site-footer">
 
             <div class="row text-center">
+                <div class="col-md-6">
+                    <p>Subscreva a Newsletter</p>
+                    <p>
+                        <a target="_blank" class="btn btn-primary text-white px-4 py-1"
+                            href="https://facebook.us19.list-manage.com/subscribe/post?u=dded1281afa253855722c58f1&amp;id=6db8f925a9">Subscrever</a>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p>Redes Sociais</p>
+                    <p>
+                        <a target="_blank" href="https://www.facebook.com/DaikiSpacePt/" class="pb-2 pr-2 pl-0"><span
+                                class="icon-facebook"></span></a>
+                        <a target="_blank" href="https://www.instagram.com/daikispace/" class="pb-2 pr-2 pl-0"><span
+                                class="icon-instagram"></span></a>
+                    </p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row text-center">
                 <div class="col-md-12">
-                    <div class="col-md-12">
-                        <p>
-                            <a target="_blank"
-                                href="https://facebook.us19.list-manage.com/subscribe/post?u=dded1281afa253855722c58f1&amp;id=6db8f925a9">Subscreva
-                                a newsletter</a>
-                            |
-                            <a target="_blank" href="https://www.facebook.com/DaikiSpacePt/"
-                                class="pb-2 pr-2 pl-0"><span class="icon-facebook"></span></a>
-                            |
-                            <a target="_blank" href="https://www.instagram.com/daikispace/" class="pb-2 pr-2 pl-0"><span
-                                    class="icon-instagram"></span></a>
-                        </p>
-                    </div>
                     <p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;
@@ -253,8 +273,8 @@
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
-
             </div>
+
         </footer>
 
         
