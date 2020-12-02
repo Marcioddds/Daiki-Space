@@ -80,7 +80,7 @@
               <div class=" col-10"  >
                  <a  href="#"><span style="color: rgb(204, 205, 206);" 
                 onclick="openMenu()" id="menubt1" class="icon-menu h3"></span></a></div>
-              <div class="col-8" id="cabecalho">
+              <div class="col-12" id="cabecalho">
                 <nav class="site-navigation text-right" role="navigation">
                   <div class="container">
 
@@ -183,10 +183,13 @@
         
       }
 
-      #cabecalho {margin-left:25%;}    
+      @media (min-width: 1200px){ #cabecalho {margin-left:28%;}}  
+      @media (max-width: 1200px){ #cabecalho {margin-left:15%;}}  
+
       @media (max-width: 768px){
     #cabecalho {
     display: block;
+    margin-left: auto;
   
     }}
 
