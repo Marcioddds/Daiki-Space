@@ -73,10 +73,14 @@
               <div id="aaa"class="col-2">
                 <h2 class="mb-0 site-logo"><a href="index.html"><img src="images/daiki/logos/logo-daiki.png" alt=""
                   title="" /></a></h2>
+                  
 
-                  <a href="#"><span onclick="openMenu()" id="menubt1" class="icon-menu h3"></span></a>
+                  
               </div>
-              <div class="col-10" id="cabecalho">
+              <div class=" col-10" style="justify-content: right;text-align: right; float: right;" >
+                 <a  href="#"><span style="color: aliceblue;" 
+                onclick="openMenu()" id="menubt1" class="icon-menu h3"></span></a></div>
+              <div class="col-8" id="cabecalho">
                 <nav class="site-navigation text-right" role="navigation">
                   <div class="container">
 
@@ -173,7 +177,32 @@
 
     <style>
       #olé{ color: black; }
-       @media(min-width: 700px)  { #cabecalho {margin-left:25%;}}    
+       #cabecalho{
+       position: absolute;
+     display:none;
+        
+      }
+
+      #cabecalho {margin-left:25%;}    
+      @media (max-width: 768px){
+    #cabecalho {
+    display: block;
+  
+    }}
+
+      #menubt1{
+    
+    float: right;
+    justify-content: right;
+    
+  }
+
+ 
+  @media (max-width: 768px){
+    #menubt1 {
+    display: none;
+  
+    }}
     </style>
 
     <div class="newgallery">
@@ -479,12 +508,12 @@
   </script>
   <script>
     function openMenu() {
-     var click = document.getElementById("cabecalho") ;
-      if(click.style.display === "none"){
-          click.style.display = "flex" ;
-      }else{ 
-          click.style.display = "none" ;
-      }
+     
+      
+        document.getElementById("cabecalho").style.display = "flex"; 
+        document.getElementById("menubt1").style.display = "none" ;
+     
+      
     }
  </script>
 
