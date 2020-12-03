@@ -1,7 +1,15 @@
  
 
 
+   body{overflow: hidden;}
+  @media (max-width: 750px) { .body{overflow: hidden; margin: 0;  
+  }}
 
+  @media screen and (max-width: 405px) {
+    body {
+        overflow: hidden!important;
+    }
+}
 body {
     line-height: 1.7;
     color: rgba(0, 0, 0, 0.5);
