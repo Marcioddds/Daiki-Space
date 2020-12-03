@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,6 +31,17 @@
 </head>
 
 <body>
+  <style>
+    body{overflow-x: hidden;}
+  @media (max-width: 750px) { body{overflow-x: hidden;  
+  }}
+
+  @media screen and (max-width: 700px) {
+    body {
+        overflow-x: hidden!important;
+    }
+}
+  </style>
 
   <div class="site-wrap">
 
@@ -70,11 +82,10 @@
     
                              
                               <li><a href="a_chikung.html">Chi Kung</a></li>      
-                              <li><a href="a_kundaliniyoga.html">Kundalini Yoga</a></li>
-                              <li><a href="a_lujong.html">Lu Jong</a></li>
-                              <li><a href="a_aerialpilates.html">Aerial Pilates</a></li>
+                              <li><a href="a_kundalini.html">Kundalini Yoga</a></li>
+                              <li><a href="a_luyong.html">Lu Jong</a></li>
+                              <li><a href="a_aeropilates.html">Aerial Pilates</a></li>
                               <li><a href="a_pilates.html">Pilates </a></li>
-                              <li><a href="a_kids.html">Yoga Kids & Teens </a></li>
                               
                             </ul>
                           </li>
@@ -88,9 +99,9 @@
                               <li><a href="th_to.html">Osteopatia</a></li>
                               <li><a href="th_reiki.html">Reiki</a></li>
                               <li><a href="th_tarot.html">Tarot</a></li>
-                             
                               
-                            
+                              
+                              <li><a href="th_tn.html">Terapia Nutracêutica</a></li>
                               
                               
                             </ul>
@@ -101,19 +112,15 @@
                               
                               <li><a href="be_mr.html">Massagem Relaxante</a></li>
                               <li><a href="be_mt.html">Massagem Terapêutica</a></li>
-                              <li><a href="be_mgeo.html">Massagem Geotermal</a></li>
                               <li><a href="be_ma.html">Massagem Ayurvédica</a></li>
                              
                             </ul>
                           </li>
                           <li>
-                            <a href="blogue.html">Blogue</a>
+                            <a href="daikionline.html">Daiki On-line</a>
                           </li>
                           <li>
                             <a href="eventos.html">Eventos</a>
-                          </li>
-                          <li>
-                            <a href="daikionline.html">Daiki On-line</a>
                           </li>
                           <li>
                             <a href="contactos.html">Contactos</a>
@@ -144,13 +151,13 @@
     <div class="site-section">
       <div class="container">
         <div class="row">
-          <div id="newsletter" class="col-md-6 mx-auto text-center mb-5 section-heading">
+          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
             <h2 class="mb-5">Newsletter</h2>
           </div>
         </div>
         <div class="row">
-          <div id="descrever" class="col-md-6 mx-auto text-center mb-5 section-heading">
-            <p>Se pretende ficar a par de todas as novidades do nosso espaço, subscreva a nossa Newsletter!</p>
+          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+            <p>Se pretende ficar a par de todas as novidades do nosso espaço, subscreva a newsletter!</p>
           </div>
         </div>
 
@@ -165,7 +172,7 @@
     </div>
 
     <div class="site-section">
-      <div id="mapa" class="container">
+      <div class="container">
         <div class="row">
           <div class="col-md-6 mx-auto text-center mb-5 section-heading">
             <h2 class="mb-5">Mapa</h2>
@@ -173,9 +180,17 @@
         </div>
         <div class="row">
           <div style="margin:0 auto;">
-            <iframe width="1080" height="500"
+            <iframe
               src="https://maps.google.com/maps?q=espa%C3%A7o%20daiki&t=&z=15&ie=UTF8&iwloc=&output=embed"
               frameborder="0"></iframe>
+              <style> 
+                iframe{width:1080px;
+                  height:500px;}
+                @media(max-width:1100px ) {iframe{width:90%;
+                  height:auto;}
+                  
+                }
+                        </style>
           </div>
         </div>
       </div>
@@ -187,25 +202,13 @@
   <div class="site-section">
     <div class="container">
       <div class="row">
-        <div id="fale" class="col-md-6 mx-auto text-center mb-5 section-heading">
+        <div class="col-md-6 mx-auto text-center mb-5 section-heading">
           <h2 class="mb-5">Fale connosco</h2>
         </div>
       </div>
       <div class="row">
 
         <div class="col-md-12 col-lg-8 mb-5">
-
-
-          <style>
-            #newsletter {margin-top: -20px;}
-            #descrever {margin-top:-30px;}
-            #mapa{margin-top: -160px;}
-            #fale {margin-top: -120px;}
-            @media (max-width: 768px) {
-            #mapa  {margin-top: 10px;}
-            #fale  {margin-top: 10px;}
-}
-          </style>
 
 
           <!--IMPORTANTE VER AQUI A AÇÃO!-->
@@ -260,7 +263,6 @@
 
             <p class="mb-0 font-weight-bold">Codigo Postal</p>
             <p class="mb-4">4740-323 Fão, Braga, Portugal</p>
-
 
             <p class="mb-0 font-weight-bold">Telefone</p>
             <p class="mb-4">(+351) 915 125 777</p>
